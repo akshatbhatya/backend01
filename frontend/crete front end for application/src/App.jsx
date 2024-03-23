@@ -5,7 +5,7 @@ function App() {
   const [user,setuser]=useState([])
 
   useEffect(()=>{
-    axios.get("http://localhost:8080")
+    axios.get("/api/jokes")
     .then((response)=>setuser(response.data))
     .catch((err)=>{console.log(err)})
   },[])

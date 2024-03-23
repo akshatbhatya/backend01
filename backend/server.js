@@ -608,7 +608,7 @@ const port=8080;
 const app=Express();
 
 
-app.get('/',(req,res)=>{
+app.get('/api/jokes',(req,res)=>{
     res.send(userData)
 })
 app.get('/about',(req,res)=>{
