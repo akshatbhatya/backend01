@@ -1,1 +1,42 @@
 node_modules
+# Ignore all .DS_Store files
+.DS_Store
+
+# Ignore all node_modules directories
+node_modules/
+
+# Ignore all build directories
+build/
+
+# Ignore all coverage directories
+coverage/
+
+# Ignore all .env files
+.env
+
+# Ignore all .env.* files
+.env.*
+
+# Ignore all .env.local files
+.env.local
+
+# Ignore all .env.production files
+.env.production
+
+# Ignore all .env.test files
+.env.test
+
+# Ignore all .env.development files
+.env.development
+
+# Ignore all .gitignore files
+.gitignore
+
+# Ignore all README.md files
+README.md
+
+# Ignore all package-lock.json files
+package-lock.json
+
+# Ignore all yarn.lock files
+yarn.lock
